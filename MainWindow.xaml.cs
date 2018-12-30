@@ -53,7 +53,7 @@ namespace AudioSenser
             }
             catch (Exception exception)
             {
-                MessageBox.Show(exception.Message, "ALARM!");
+                MessageBox.Show(exception.Message, "Problem with access to COM \n" + "Please, change COM and try again!");
             }
         }
 
